@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		99887A8729928ED9002D4C17 /* InteractiveAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99887A8629928ED9002D4C17 /* InteractiveAppApp.swift */; };
-		99887A8929928ED9002D4C17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99887A8829928ED9002D4C17 /* ContentView.swift */; };
 		99887A8B29928EDA002D4C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99887A8A29928EDA002D4C17 /* Assets.xcassets */; };
 		99887A8E29928EDA002D4C17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99887A8D29928EDA002D4C17 /* Preview Assets.xcassets */; };
+		99DAF1982995514F00CC7B02 /* InteractiveAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DAF1972995514F00CC7B02 /* InteractiveAppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99887A8329928ED9002D4C17 /* InteractiveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99887A8629928ED9002D4C17 /* InteractiveAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveAppApp.swift; sourceTree = "<group>"; };
-		99887A8829928ED9002D4C17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99887A8A29928EDA002D4C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99887A8D29928EDA002D4C17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99DAF1972995514F00CC7B02 /* InteractiveAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveAppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				99887A8629928ED9002D4C17 /* InteractiveAppApp.swift */,
-				99887A8829928ED9002D4C17 /* ContentView.swift */,
+				99887A9429928FAC002D4C17 /* Views */,
 				99887A8A29928EDA002D4C17 /* Assets.xcassets */,
 				99887A8C29928EDA002D4C17 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				99887A8D29928EDA002D4C17 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99887A9429928FAC002D4C17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99DAF1972995514F00CC7B02 /* InteractiveAppView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99887A8929928ED9002D4C17 /* ContentView.swift in Sources */,
 				99887A8729928ED9002D4C17 /* InteractiveAppApp.swift in Sources */,
+				99DAF1982995514F00CC7B02 /* InteractiveAppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
